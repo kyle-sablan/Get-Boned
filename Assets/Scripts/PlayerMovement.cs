@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour {
 
     //Public Variables
     public float moveSpeed;
+    public float jumpHeight;
 
     //Private Variables
     private Rigidbody2D myRB;
@@ -31,5 +32,11 @@ public class PlayerMovement : MonoBehaviour {
             myRB.velocity = new Vector2(0f, myRB.velocity.y);
         }
 
+
+        //Jumping
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            myRB.velocity = new Vector2(myRB.velocity.x, 1f * jumpHeight);
+        }
     }
 }
