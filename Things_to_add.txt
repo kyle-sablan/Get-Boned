@@ -1,0 +1,29 @@
+Features to add
+---------------
+~Bone collection
+~Changing state
+~Climbing
+~Single jump
+~Basic animations
+~Simple enemy AI
+~Simple UI
+~Improved camera
+~Automatic platforms
+~Buttons
+~Teleport system
+~Goals
+~Repsawning of bones
+~More tile types (corners, other cliffs, etc)
+~Different abilities based on bones
+~minor currency (i.e. 100 little bones == 1 bone)
+~Start screen
+~pause
+~return to main screen
+~exit game
+~clear progression
+~better colliders
+~edges of levels
+~transition of level complete
+~information blocks on what to do
+~secret paths/levels
+~moveable blocks
